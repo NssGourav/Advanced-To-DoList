@@ -1,16 +1,46 @@
-# Before Getting Started
+# Advanced To-Do List
 
-The starting code for this project is the exact same code as the ending of the simple todo list project we completed earlier in the course. The only change is I added an `app.html` file which shows what the final HTML/CSS for this project should look like. Also, the CSS file you used in the first project already contains all the styles needed for this updated version of the project so you do not need to add any additional styles.
+## 📝 Project Overview
+This is an **Advanced To-Do List** application built using **React**. It offers enhanced task management features beyond a basic to-do list, making it an efficient tool for productivity.
 
-The goal of this project is to expand upon our simple todo list by adding more complex user interactions which will lead to more complex state management.
+🔗 **Live Demo:** [Advanced To-Do List](https://advanced-to-do-list-inky.vercel.app/)
 
-# Instructions
+## 👥 Team Members
+This project was developed collaboratively as part of a group effort.
 
-1. The state for our todos should be stored in local storage so when we come back to the page at a later time all our data is still there
-2. Convert all the state in the application to use `useReducer` and `Context` to pass the state between components
-3. Add a form that lets you filter todos by their name and hide completed todos
+## 🚀 Features
+- ✅ Add, edit, and delete tasks
+- 📌 Mark tasks as complete or pending
+- 📅 Due date assignment for tasks
+- 🔍 Search and filter tasks
+- 🎨 Interactive UI with smooth transitions
 
-## Bonus
+## 🛠️ Technologies Used
+- **React.js** - Frontend Framework
+- **JavaScript (ES6+)** - Logic & Functionality
+- **CSS** - Styling
+- **Vercel** - Deployment
 
-1. Add the ability to edit existing todos
-   - This is in the bonus section not because the editing portion is tricky, but because handling the proper UI state of swapping between text and an input is something we haven't really done before
+## 📦 Installation & Usage
+### Clone the Repository
+```bash
+ git clone https://github.com/your-repo-link.git
+ cd advanced-to-do-list
+```
+### Install Dependencies
+```bash
+npm install
+```
+### Run Locally
+```bash
+npm start
+```
+
+## 🛠 Future Improvements
+- 📲 Mobile-responsive UI
+- 🔔 Notifications for pending tasks
+- 🌙 Dark Mode
+- 🔗 Integration with external APIs
+
+## 🤝 Contributions
+Feel free to fork this repository and submit a pull request for improvements! 🚀
